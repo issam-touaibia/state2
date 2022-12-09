@@ -1,38 +1,30 @@
-.App {
+.fullName{
+  font-style:oblique;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
   text-align: center;
+  color: rgb(73, 73, 218);
+}
+.bio{font-size: larger;
+  text-align: center;
+}    
+.profession{font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color: blue;
+  font-style: italic;
+}
+.Photos{
+border-radius: 300px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.app-header{
+  height: 150px;
 }
+.Photo{
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+  border-radius: 300px;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.time{
+text-align: center;
 }
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.image{
+  border-radius: 300px;
 }
